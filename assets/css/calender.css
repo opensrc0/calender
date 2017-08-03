@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+div.pre-next{
+    border: 1px solid black;
+    padding : 20px
+}
+
+span.pre-next{
+    cursor: pointer;
+    padding : 20px
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+ul {
+  list-style-type: none;
+}
