@@ -3,7 +3,7 @@ $(document).ready(function(){
     var rooms
         ,noOfDatesShow
         ,roomType
-        ,roomTyes
+        ,roomTypes
         ,date
         ,today
         ,datesToshow;
@@ -12,7 +12,7 @@ $(document).ready(function(){
         rooms = [1, 2, 3, 4, 5];
         noOfDatesShow = 7;
         roomType = 'oak';
-        roomTyes = ['oak', 'maple', 'maple or oak'];
+        roomTypes = ['oak', 'maple', 'maple or oak'];
         date = new Date();
         today = date.getDate();
         datesToshow = getDates(today, noOfDatesShow);
@@ -29,8 +29,8 @@ $(document).ready(function(){
 
     function getRoomTypeTemp () {
         var roomTypeStr = `<ul class="hide" id="changeRoomType">`;
-        for(var j = 0; j < roomTyes.length; j++) {
-            roomTypeStr += `<li data-attr="${roomTyes[j]}">${roomTyes[j]}</li>`;
+        for(var j = 0; j < roomTypes.length; j++) {
+            roomTypeStr += `<li data-attr="${roomTypes[j]}">${roomTypes[j]}</li>`;
         }
         roomTypeStr += `</ul>`;
 
