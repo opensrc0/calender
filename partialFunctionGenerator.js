@@ -1,5 +1,10 @@
-const partialApply = (fn, ...fixedArgs) => {
-  return function(...remainingArgs) {
-    return fn.apply(this, fixedArgs.concat(remainingArgs));
-  };
-};
+(function() {
+  "use srict";
+	
+	const partialApply = (fn, ...fixedArgs) => {
+	  return function(...remainingArgs) {
+	    return fn.apply(this, fixedArgs.concat(remainingArgs));
+	  };
+	};
+
+}());

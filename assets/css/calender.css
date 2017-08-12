@@ -1,3 +1,20 @@
+
+.openCurve {
+    border-radius: 50% 0% 0% 50%;
+}
+
+.closeCurve {
+    border-radius: 0% 50% 50% 0%;
+}
+
+.backGroundColorRed {
+    background-color: red;
+}
+
+.backGroundColorWhite {
+    background-color: white;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
